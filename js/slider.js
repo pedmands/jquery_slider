@@ -17,8 +17,8 @@ function startSlider(){
 			sliderInt = 1;
 		}
 		
-		$("#slider > img").fadeOut(300);
-		$("#slider > img#" + sliderNext).fadeIn(300);
+		$("#slider > img").fadeOut(100);
+		$("#slider > img#" + sliderNext).fadeIn(400);
 		
 		// advances the current and next slide numbers for the loop
 		sliderInt = sliderNext;
@@ -47,8 +47,8 @@ function showSlide(id){
 			id = count;
 		}
 		
-		$("#slider > img").fadeOut(300);
-		$("#slider > img#" + id).fadeIn(300);
+		$("#slider > img").fadeOut(100);
+		$("#slider > img#" + id).fadeIn(400);
 		
 		// advances the current and next slide numbers for the loop
 		sliderInt = id;
